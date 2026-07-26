@@ -12,7 +12,7 @@ st.write("Upload an image and the CNN will try to guess what it is!")
 @st.cache_resource
 def load_cnn_model():
     # Make sure your model file is inside a folder named 'model'
-    return tf.keras.models.load_model('/Users/sakshamkapoor/Downloads/ML-Summer_training/CNN_Streamlit/cifar10_cnn_model.h5')
+    return tf.keras.models.load_model(''cifar10_cnn_model.h5'')
 
 with st.spinner("Loading Model..."):
     model = load_cnn_model()
